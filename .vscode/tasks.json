@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "npm run css"
+		},
+		{
+			"type": "npm",
+			"script": "server",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"label": "npm: server",
+			"detail": "live-server --port=3000"
+		}
+	]
+}
